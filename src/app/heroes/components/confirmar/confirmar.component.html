@@ -1,0 +1,17 @@
+<h1>¿Esta seguro?</h1>
+<br>
+<p>
+  Esta seguro de borrar a: {{ data.superhero }}
+  <br>
+  Desea continuar?
+</p>
+
+<div>
+  <button mat-button (click)="borrar()" color="warn">
+    Si, borrar!
+  </button>
+
+  <button mat-button (click)="cancelar()" >
+    Cancelar
+  </button>
+</div>
